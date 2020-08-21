@@ -1,0 +1,9 @@
+{
+"prezent":"_ringtone_pinkpanther",
+"okrzyk":"Urodzinkowy<br>prezent!",
+"spodziewany":"22.08",
+"status":"W przygotowaniu",
+"przynies":false,
+"online":true,
+"wskazowka":"bit.ly/<br>pr3z3nt"
+}

@@ -1,0 +1,8 @@
+{
+"prezent":"_dvd_tomjerry",
+"okrzyk":"Urodzinkowy<br>prezent!",
+"spodziewany":"22.08",
+"status":"W drodze",
+"przynies":false,
+"wskazowka":"brak"
+}
