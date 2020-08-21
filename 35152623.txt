@@ -1,0 +1,8 @@
+{
+"prezent":"_płyta_verdi",
+"okrzyk":"Urodzinkowy<br>prezent!",
+"spodziewany":"21.08",
+"status":"gotowy do odbioru!",
+"przynies":false,
+"wskazowka":"Specjalny<br>kurier<br>uroczyście<br>dostarczy<br>prezent<br>główny"
+}

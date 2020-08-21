@@ -1,0 +1,8 @@
+{
+"prezent":"_dvd_pinkpanther",
+"okrzyk":"Urodzinkowy<br>prezent!",
+"spodziewany":"21.08",
+"status":"gotowy do odbioru!",
+"przynies":false,
+"wskazowka":"Prezent<br>znajduje się<br>gdzieś w pokoju<br>Patrycji<br>zapytaj<br>specjalnego<br>kuriera<br>o wskazówki"
+}
