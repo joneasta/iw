@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Remanent</title>
+	
+	
+	<!-- ///////////// iOS WEBAPP /////////////// -->
+
+	<!--<meta name="apple-mobile-web-app-capable" content="yes">-->
+	<meta name="apple-mobile-web-app-title" content="Urodzinki">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="format-detection" content="telephone=no">
+	
+    <!-- iPhone (Retina) ICON-->
+    <link href="apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+    <!-- iPad (Retina) ICON-->
+    <link href="apple-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon-precomposed">
+
+	<!-- ///////////// iOS WEBAPP /////////////// -->
+	
+	
+	<!--<link href="https://fonts.googleapis.com/css?family=Unica+One&amp;subset=latin-ext" rel="stylesheet">-->
+	
+	<style type="text/css" media="screen">
+		@font-face {
+		  font-family: 'Unica One';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: url('UnicaOne-Regular.woff') format('woff');
+		}
+	
+		* {
+			margin: 0;
+			background-color: #fff;
+			-webkit-text-size-adjust: 100%;
+		}
+		
+		body {
+			margin-top: 20px;
+			/*margin-bottom: 20px;*/
+			margin-left: 10px;
+			margin-right: 10px;
+			background-color: #fff;
+			display: block;
+			font-family: 'Unica One';
+			opacity: 0;
+			-webkit-transition: opacity 0.5s ease-in-out;
+			-webkit-user-select: none;
+		}
+		
+		#info {
+			color: #000;
+		    font-size: 48px;
+		}
+		
+		/* --- 000webhostapp.com logo fix --- */
+		/* --- disables all images --- */
+		img {
+			display: none !important;
+		}
+	</style>
+	
+	
+	<script>
+		function fullOpacity() {
+		    setTimeout(fullOpacityWithDelay, 500);
+			function fullOpacityWithDelay() {
+				window.scrollTo(0, 1);
+				document.body.style.opacity = "1";
+			}
+		}
+	</script>
+</head>
+
+<body onload="fullOpacity()">
+<center>
+	
+<p id="info">Remanent</p>
+
+</center>
+</body>
+
+</html>
+
