@@ -162,7 +162,7 @@
 						_request.open("GET", _link, false);
 						_request.send();
 
-						var _request_response = (4 === _request.readyState) && (200 === _request.status) ? (_request.responseText) : '{"okrzyk":"wystąpił<br>błąd","status":"błąd", "przynies":false}';
+						var _request_response = (4 === _request.readyState) && (200 === _request.status) ? (_request.responseText) : '{"okrzyk":"wystąpił<br>błąd","spodziewany":"n/a","status":"n/a", "przynies":false}';
 
 						var _json = JSON.parse(_request_response);
 						var _okrzyk = _json.okrzyk;
