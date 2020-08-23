@@ -14,10 +14,10 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="default">
 	<meta name="format-detection" content="telephone=no">
 	
-    <!-- iPhone (Retina) ICON-->
-    <link href="apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon-precomposed">
-    <!-- iPad (Retina) ICON-->
-    <link href="apple-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon-precomposed">
+   	<!-- iPhone (Retina) ICON-->
+   	<link href="apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+   	<!-- iPad (Retina) ICON-->
+   	<link href="apple-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon-precomposed">
 
 	<!-- ///////////////////////////////////////// -->
 	
@@ -26,10 +26,10 @@
 	
 	<style type="text/css" media="screen">
 		@font-face {
-		  font-family: 'Unica One';
-		  font-style: normal;
-		  font-weight: 400;
-		  src: url('UnicaOne-Regular.woff') format('woff');
+			font-family: 'Unica One';
+			font-style: normal;
+			font-weight: 400;
+			src: url('UnicaOne-Regular.woff') format('woff');
 		}
 	
 		* {
@@ -54,12 +54,17 @@
 		}
 		
 		body.all-loaded {
-		    opacity: 1;
+			opacity: 1;
 		}
 		
 		#info {
 			color: #000;
-		    font-size: 48px;
+			font-size: 48px;
+		}
+		
+		noscript {
+			color: #000;
+			font-size: 48px;
 		}
 		
 		.input {
@@ -67,11 +72,11 @@
 			color: #000;
 			border: 2px solid #000;
 			border-radius: 4px;
-		    padding: 10px 20px;
-		    text-align: center;
-		    text-decoration: none;
-		    display: block;
-		    font-size: 24px;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: block;
+			font-size: 24px;
 			/*margin-bottom: 20px;*/
 			-webkit-appearance: none;
 			font-family: 'Unica One', 'Avenir', Helvetica, Arial;
@@ -80,15 +85,15 @@
 		.btn {
 			-webkit-user-select: none;
 			-webkit-appearance: none;
-		    background-color: white;
+		    	background-color: white;
 			color: #ff2841;
 			border: 2px solid #ff2841;
 			border-radius: 4px;
-		    padding: 10px 30px;
-		    text-align: center;
-		    text-decoration: none;
-		    display: block;
-		    font-size: 24px;
+			padding: 10px 30px;
+			text-align: center;
+			text-decoration: none;
+			display: block;
+			font-size: 24px;
 			font-family: 'Unica One', 'Avenir', Helvetica, Arial;
 			/*cursor: pointer;*/
 		}
@@ -242,7 +247,8 @@
 
 <body onload="fullOpacity()" class="">
 <center>
-	
+
+<noscript>javascript<br>is disabled</noscript>
 <p id="info">Wprowadź<br>Urodzinkowy<br>Kod</p>
 <br><input id="code" class="input no-touch" pattern="[0-9]*" novalidate>
 <br><input id="btn" class="btn" type="button" value="Sprawdź kod" onclick="checkCode()">
