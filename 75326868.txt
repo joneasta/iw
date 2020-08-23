@@ -1,5 +1,5 @@
 {
-"prezent":"_dvd_tomjerry",
+"prezent":"_dvd_tomjerry1-2",
 "okrzyk":"Urodzinkowy<br>prezent!",
 "spodziewany":"23.08",
 "status":"Urodzinkowy<br>kurier<br>natychmiast<br>dostarczy",
