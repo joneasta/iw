@@ -2,7 +2,7 @@
 "prezent":"_dvd_tomjerry3-4",
 "okrzyk":"Urodzinkowy<br>prezent!",
 "spodziewany":"23.08",
-"status":"Urodzinkowy<br>kurier<br>natychmiast<br>dostarczy",
+"status":"Gotowy do odbioru!",
 "przynies":true,
 "wskazowka":"Urodzinkowy<br>kurier<br>natychmiast<br>dostarczy"
 }
