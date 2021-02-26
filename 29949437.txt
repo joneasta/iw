@@ -1,8 +1,0 @@
-{
-"prezent":"_płyta_pinkpanther",
-"okrzyk":"Urodzinkowy<br>prezent!",
-"spodziewany":"21.08",
-"status":"Gotowy do odbioru!",
-"przynies":false,
-"wskazowka":"brak"
-}
